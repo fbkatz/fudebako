@@ -59,6 +59,8 @@ GitHubページ右上の「Code」→「Download ZIP」でもOKです。
 6. **OFF（グレー）にする**
 7. 設定を保存する
 
+![設定画面 > プライバシーと安全性 > Claudeの改善への使用許可をOFFにする](images/privacy-settings.png)
+
 **確認**: トグルがOFF（グレー）になっていることを目視で確認してください。
 
 この設定により：
@@ -96,9 +98,9 @@ chmod +x setup/create-folders.sh
 ```
 Fudebako/
 ├── Claude Context/   ← AI設定ファイル置き場（自動読み込み）
-├── 素材/             ← 原稿・参考資料を入れる場所
-├── 成果物/           ← AIが作ったファイルの出力先
-└── 作業中/           ← 一時ファイル用
+├── materials/        ← 原稿・参考資料を入れる場所
+├── output/           ← AIが作ったファイルの出力先
+└── workspace/        ← 一時ファイル用
 ```
 
 ---
